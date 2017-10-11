@@ -10,6 +10,12 @@ html, body {
 	width: 100%;
 	background-color: #FFF;
 }
+a {
+	color: inherit;
+}
+a:hover {
+	color: #6C6C6C;
+}
 /*START OF LANDING PAGE*/
 .intro {
 	height: 100%;
@@ -56,16 +62,7 @@ html, body {
 	color: #C8C8C8;
 }
 /*MOBILE*/
-@media screen and (max-width: 768px) {
-	.content h1 {
-		font-size: 250%;
-	}
-	.btn {
-		font-size: 110%;
-		padding: 7px 15px;
-	}
-	
-}
+
 /*END OF LANDING PAGE*/
 .main {
 	width: 60%;
@@ -74,7 +71,7 @@ html, body {
 	text-align: center;
 }
 .information {
-	background-color: rgb(230, 230, 230);
+	background-color: #E6E6E6;
 	border-radius: 12px;
 	padding: 1px 10px 5px 10px;
 	margin: 40px;
@@ -90,20 +87,64 @@ html, body {
 	color: black;
 	font-size: 100%;
 }
+.center {
+	width: 60%;
+	margin: 0 auto;
+	text-align: left;
+}
 .information .btn:hover {
 	color: #6C6C6C;
 }
 .heading-image {
 	width:60%;
 	height: 50%;
-	color: #F9F3F4;
 	margin: 0 auto;
 	margin-top: 40px;
 	border-radius: 12px;
-	background-size: contain;
-	background-repeat: no repeat;
 }
 .heading-image img {
 	max-width: 100%;
 	max-height: 100%;
+}
+.information a {
+	text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+	.content h1 {
+		font-size: 250%;
+	}
+	.btn {
+		font-size: 110%;
+		padding: 7px 15px;
+	}
+	.main {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	background-color: #E6E6E6;
+	}
+	.information {
+	background-color: #E6E6E6;
+	border-radius: 0;
+	padding: 10px;
+	margin: 0;
+	font-family: sans-serif;
+	}
+	.heading-image {
+	width:100%;
+	height: 50%;
+	margin: 0 auto;
+	border-radius: 0;
+	}
+	.heading-image img {
+	max-width: 100%;
+	max-height: 100%;
+	min-width: 100%;
+	min-height: 100%;
+	}
+
+	#life-image {
+		width:60%;
+	}
 }
