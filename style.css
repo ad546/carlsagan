@@ -86,6 +86,13 @@ html, body {
 	font-family: Oswald, sans-serif;
 	text-transform: uppercase;
 }
+.information .btn {
+	color: black;
+	font-size: 100%;
+}
+.information .btn:hover {
+	color: #6C6C6C;
+}
 .heading-image {
 	width:60%;
 	height: 50%;
@@ -94,14 +101,9 @@ html, body {
 	margin-top: 40px;
 	border-radius: 12px;
 	background-size: contain;
+	background-repeat: no repeat;
 }
-#life-image {
-	background-image: url('https://i.imgur.com/qJvkXSV.jpg');
-	background-size: cover;
-}
-#cosmo-image {
-	background-image: url('https://i.imgur.com/qGcAoch.jpg');
-}
-#more-image {
-	background-image: url('https://i.imgur.com/Io2nJjp.jpg');
+.heading-image img {
+	max-width: 100%;
+	max-height: 100%;
 }
