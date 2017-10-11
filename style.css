@@ -8,6 +8,7 @@ html, body {
 	padding: 0;
 	height: 100%;
 	width: 100%;
+	background-color: #FFF;
 }
 /*START OF LANDING PAGE*/
 .intro {
@@ -66,3 +67,41 @@ html, body {
 	
 }
 /*END OF LANDING PAGE*/
+.main {
+	width: 60%;
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.information {
+	background-color: rgb(230, 230, 230);
+	border-radius: 12px;
+	padding: 1px 10px 5px 10px;
+	margin: 40px;
+	font-family: sans-serif;
+	
+}
+.information h2 {
+	text-align: center;
+	font-family: Oswald, sans-serif;
+	text-transform: uppercase;
+}
+.heading-image {
+	width:60%;
+	height: 50%;
+	color: #F9F3F4;
+	margin: 0 auto;
+	margin-top: 40px;
+	border-radius: 12px;
+	background-size: contain;
+}
+#life-image {
+	background-image: url('https://i.imgur.com/qJvkXSV.jpg');
+	background-size: cover;
+}
+#cosmo-image {
+	background-image: url('https://i.imgur.com/qGcAoch.jpg');
+}
+#more-image {
+	background-image: url('https://i.imgur.com/Io2nJjp.jpg');
+}
